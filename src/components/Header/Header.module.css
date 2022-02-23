@@ -1,0 +1,36 @@
+.header {
+  background-color: white;
+  height: 7vh;
+  width: 100%;
+  padding: 0 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__head {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header__logo {
+  width: 6rem;
+  height: 6rem;
+}
+
+.header__title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(51, 68, 145);
+}
+
+.header__info {
+  display: flex;
+  gap: 2rem;
+  font-size: 2.5rem;
+  font-style: italic;
+  font-weight: 700;
+  color: rgb(51, 68, 145);
+}

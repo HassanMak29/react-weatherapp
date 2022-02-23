@@ -1,0 +1,10 @@
+.map {
+  width: 75%;
+  height: 45rem;
+  margin: 3rem auto 10rem;
+}
+
+.markercluster-map {
+  height: 100%;
+  width: 100%;
+}

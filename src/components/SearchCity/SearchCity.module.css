@@ -1,0 +1,35 @@
+.form {
+  display: flex;
+  align-items: center;
+  max-width: 50%;
+  margin: 0 auto;
+  box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.06);
+  margin-bottom: 4rem;
+}
+
+.form__labelInput {
+  width: 100%;
+}
+
+.form__label {
+  display: none;
+}
+
+.form__input {
+  border: none;
+  padding: 1rem 2rem;
+  width: 100%;
+  outline: none;
+  font-size: 1.6rem;
+  color: #333;
+}
+
+.form__btn {
+  border: none;
+  padding: 1.155rem;
+  cursor: pointer;
+}
+
+.form__btn:active {
+  transform: translateY(0.03rem);
+}

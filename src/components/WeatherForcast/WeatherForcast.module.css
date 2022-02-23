@@ -1,0 +1,43 @@
+.weatherForcast {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.weatherForcast__selectBox {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 20rem;
+  margin-bottom: 3rem;
+}
+
+.weatherForcast__select {
+  border: none;
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  outline: none;
+  box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.06);
+}
+
+.weatherForcast__location {
+  text-align: center;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  font-style: italic;
+}
+
+.weatherForcast__poweredby {
+  margin-top: 3rem;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #fff;
+}
+
+.weatherForcast__poweredby a {
+  text-decoration: none;
+}
