@@ -14,7 +14,7 @@ function App() {
   const [lat, setLat] = useState("36.7538");
   const [location, setLocation] = useState("Algiers, Algeria");
 
-  const url = `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=44eeb0863b7b878491c01518d820a7af`;
+  const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${process.env.REACT_APP_API_KEY}`;
 
   useEffect(() => {
     const fetchWeatherData = async () => {

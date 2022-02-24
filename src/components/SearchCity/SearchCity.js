@@ -5,7 +5,7 @@ import classes from "./SearchCity.module.css";
 const SearchCity = ({ setLat, setLon, setLocation }) => {
   const [city, setCity] = useState("");
 
-  const geocodingUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=44eeb0863b7b878491c01518d820a7af`;
+  const geocodingUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${process.env.REACT_APP_API_KEY}`;
 
   useEffect(() => {
     const fetchCity = async () => {
